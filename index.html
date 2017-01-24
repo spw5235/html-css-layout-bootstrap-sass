@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+    <head>
+      <title>Example</title>
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+
+      <!-- Do not add `link` tags unless you know what you are doing -->
+      <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+
+      <!-- Do not add `script` tags unless you know what you are doing -->
+      <script src="public/vendor.js" type="text/javascript" charset="utf-8" defer></script>
+      <script src="public/application.js" type="text/javascript" charset="utf-8" defer></script>
+    </head>
+    <body>
+
+        <div class="dropdown">
+          <button id="dLabel" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Dropdown Menu
+            <span class="caret"></span>
+          </button>
+          <ul class="dropdown-menu" aria-labelledby="dLabel">
+            <li><a href="www.google.com">test one</a></li>
+            <li><a href="http://www.google.com">test two</a></li>
+            <li><a href="http://www.test.com">test three</a></li>
+          </ul>
+        </div>
+      <h1>Example</h1>
+      <div class="container">
+        <div class="row article">
+          <div class="col-md-8 box">.col-md-8</div>
+          <div class="col-md-4 box">.col-md-4</div>
+        </div>
+
+        <!-- Stack the columns on mobile by making one full-width and the other half-width -->
+        <div class="row">
+          <div class="col-xs-12 col-md-8 box">.col-xs-12 .col-md-8</div>
+          <div class="col-xs-6 col-md-4 box">.col-xs-6 .col-md-4</div>
+        </div>
+
+        <!-- Columns start at 50% wide on mobile and bump up to 33.3% wide on desktop -->
+        <div class="row">
+          <div class="col-xs-6 col-md-4 box">.col-xs-6 .col-md-4</div>
+          <div class="col-xs-6 col-md-4 box">.col-xs-6 .col-md-4</div>
+          <div class="col-xs-6 col-md-4 box">.col-xs-6 .col-md-4</div>
+        </div>
+
+        <!-- Columns are always 50% wide, on mobile and desktop -->
+        <div class="row">
+          <div class="col-xs-6 box">.col-xs-6</div>
+          <div class="col-xs-6 box">.col-xs-6</div>
+        </div>
+      </div>
+    </body>
+</html>
